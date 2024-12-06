@@ -1,0 +1,10 @@
+1. Are the two simulations the same throughout the entire period?  If not, when do they diverge?
+Answer: The two simulations are not same throughout the time. initially, the simulations are identical to each other. This divergence occurs due to the exponential relation of the initial condition during simulation. But they gradually diverge due to chaos in the system. 
+
+From the plots, the simulations start diverging-
+For x vs Time: At around 55 days
+For y vs Time: At around 35 days
+For z vs Time: At around 18 days
+
+2. If the ending points are different, what does this say regarding the importance of providing NWP models, assuming this serves as a proxy for one, with accurate and balanced initial conditions?
+Answer: The ending points being different implies the importance of start the Numerical Weather Prediction correctly. As Lorenz system is sensitive to initial condition, minute differences cause major differences from reality. Specially for long term prediction, this sort of errors will be amplified due to the chaotic nature of atmosphere. While the short-term predictions are accurate despite the initial condition, the prediction becomes unreliable over a extended period. SO NWP needs accurate, balanced initial conditions. 
